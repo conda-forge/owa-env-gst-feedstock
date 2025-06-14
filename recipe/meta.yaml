@@ -1,5 +1,5 @@
 {% set name = "owa-env-gst" %}
-{% set version = "0.3.9.post1" %}
+{% set version = "0.4.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/owa_env_gst-{{ version }}.tar.gz
-  sha256: 65e57069eb4b9a22047b032087aad3bc5302aceedabaf7a9a9b5c57ed58845b8
+  sha256: 9232feacd17534c168919b010a4d34890a8688db543b941c2040678eab4be873
 
 build:
   noarch: python
